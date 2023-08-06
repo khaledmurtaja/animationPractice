@@ -1,5 +1,6 @@
 import 'package:animation/animated_container.dart';
 import 'package:animation/cube_animation.dart';
+import 'package:animation/polygon_animation.dart';
 import 'package:animation/test_hero_animation.dart';
 import 'package:flutter/material.dart';
 
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: TestHeroAnimations(),
+      home: PolygonAnimation(),
     );
   }
 }
